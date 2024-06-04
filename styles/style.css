@@ -164,8 +164,8 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
   background-color: #fff;
-  inline-size: 15px;
-  block-size: 15px;
+  inline-size: 20px;
+  block-size: 20px;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -178,7 +178,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
   padding: 5px 0;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -232,6 +232,7 @@ ol {
   line-height: 70.5px;
   text-align: left;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .content__accent {
@@ -239,6 +240,7 @@ ol {
 }
 
 .content__list {
+  padding-top: 6px;
   position: relative;
   display: flex;
   flex-direction: column;
