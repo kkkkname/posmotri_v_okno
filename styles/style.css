@@ -151,8 +151,8 @@ ol {
   margin: 1px 5px 1px 1px;
   outline: 1px solid #fff;
   cursor: pointer;
-  inline-size: 20px;
-  block-size: 20px;
+  inline-size: 19px;
+  block-size: 19px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
@@ -164,8 +164,8 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
   background-color: #fff;
-  inline-size: 20px;
-  block-size: 20px;
+  inline-size: 19px;
+  block-size: 19px;
 }
 
 .search-form__label:hover .search-form__label-text {
