@@ -178,6 +178,7 @@ ol {
 }
 
 .button {
+  border: none;
   outline: 1px solid #fff;
   padding: 5px 0;
   color: #fff;
@@ -244,11 +245,9 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   overflow-y: auto;
   block-size: 300px;
   inline-size: 400px;
-  scrollbar-width: none;
 }
 
 .content__list-item {
