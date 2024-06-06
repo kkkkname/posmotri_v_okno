@@ -254,7 +254,7 @@ ol {
   display: flex;
   flex-direction: column;
   margin: 2px;
-  inline-size: 395px;
+  inline-size: 398px;
 }
 
 .content__list-item:not(:last-child) {
