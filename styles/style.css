@@ -179,8 +179,8 @@ ol {
 
 .button {
   border: none;
-  outline: 1px solid #fff;
   padding: 5px 0;
+  outline: 1px solid #fff;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
@@ -227,13 +227,13 @@ ol {
 }
 
 .title {
+  padding-bottom: 10px;
   font-family: Oswald, sanf-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
   text-align: left;
   text-transform: uppercase;
-  padding-bottom: 10px;
 }
 
 .content__accent {
@@ -241,13 +241,13 @@ ol {
 }
 
 .content__list {
-  padding-top: 6px;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-top: 6px;
   overflow-y: auto;
-  block-size: 300px;
-  inline-size: 400px;
+  block-size: 298px;
+  inline-size: 100%;
 }
 
 .content__list-item {
@@ -275,6 +275,7 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
+  inline-size: 100%;
 }
 
 .content__video-card-description-container {
@@ -299,17 +300,21 @@ ol {
 }
 
 .content__video-card-description {
+  max-width: 200px;
+  overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
 }
 
 .content__video-card-thumbnail {
   object-fit: cover;
   object-position: center;
-  inline-size: 195px;
-  block-size: 105px;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .content__card-link:hover {
